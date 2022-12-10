@@ -22,7 +22,7 @@ const Navbar = () => {
                     <div className='navbar-end flex-1 w-fit'>
                         <div className="dropdown ">
 
-                            <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-lg font-semibold ml-[-200px]">
+                            <ul tabIndex={0} className="menu menu-compact dropdown-content mt-14 p-2 shadow bg-base-100 rounded-box w-52 text-lg font-semibold ml-[-200px]">
                                 {liList}
                             </ul>
                             <label tabIndex={0} className="w-fit   btn btn-ghost lg:hidden">
