@@ -29,19 +29,19 @@ const Contactme = () => {
                                 <label className="label">
                                     <span className="label-text">Full Name</span>
                                 </label>
-                                <input name='from_name' type="text" placeholder="full name" className="input input-bordered" />
+                                <input required  name='from_name' type="text" placeholder="full name" className="input input-bordered" />
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
-                                <input name='from_email' type="email" placeholder="email" className="input input-bordered" />
+                                <input required name='from_email' type="email" placeholder="email" className="input input-bordered" />
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Message</span>
                                 </label>
-                                <textarea name='message' type="text" placeholder="message" className="pt-1 input input-bordered" />
+                                <textarea required  name='message' type="text" placeholder="message" className="pt-1 input input-bordered" />
                             </div>
                              
                             <div className="form-control mt-6">
