@@ -6,7 +6,7 @@ import twitter from '../../../assets/twitter.png';
 
 const HomeSection = () => {
     return (
-        <div id='home' className='min-h-[600px] flex justify-center items-center py-8 lg:py-0' >
+        <div id='home' className='min-h-[600px] flex justify-center items-center py-14 lg:py-0' >
             <div className='grid grid-cols-1 md:grid-cols-2 gap-8  max-w-[1440px] w-[97%] mx-auto '>
                 <div>
                     <h4 className='text-lg font-semibold'>Hi I'm Muhammad Mehadi</h4>
