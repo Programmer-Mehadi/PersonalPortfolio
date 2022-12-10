@@ -21,7 +21,7 @@ const Contactme = () => {
     return (
         <div id='contact' className='max-w-[1440px] w-[97%] mx-auto my-10'>
             <h2 className='text-center font-bold text-3xl  mb-16 pt-20'>Contact</h2>
-            <div className="">
+            <div className="mb-20">
                 <div className=" flex-col lg:flex-row-reverse">                     
                     <div className="max-w-[600px] mx-auto rounded-sm  card flex-shrink-0  shadow-2xl bg-base-100">
                         <form ref={form} onSubmit={sendEmail} className="card-body">
