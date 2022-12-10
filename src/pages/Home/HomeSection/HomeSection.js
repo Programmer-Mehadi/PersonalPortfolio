@@ -6,12 +6,12 @@ import twitter from '../../../assets/twitter.png';
 
 const HomeSection = () => {
     return (
-        <div className='min-h-[500px] flex justify-center items-center py-8 lg:py-0' >
+        <div id='home' className='min-h-[600px] flex justify-center items-center py-8 lg:py-0' >
             <div className='grid grid-cols-1 md:grid-cols-2 gap-8  max-w-[1440px] w-[97%] mx-auto '>
                 <div>
                     <h4 className='text-lg font-semibold'>Hi I'm Muhammad Mehadi</h4>
-                    <h1 className='text-3xl my-1 font-bold'>I'm <span className='text-[#3B3486]'>Web Developer</span></h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quo reprehenderit consectetur provident omnis delectus eius consequatur quia perferendis, tempore excepturi sed fugiat quisquam explicabo ipsa.</p>
+                    <h1 className='text-3xl my-4 font-bold'>I'm <span className='text-[#3B3486]'>Web Developer</span></h1>
+                    <p className='text-lg'>As a passionate Web Developer and Javascript Expert. I have experience in HTML, CSS, and JavaScript,React,Expressjs and Mongodb. Combined with my recent projects in full stack web development, I am confident I have the skills to help you.</p>
                     <div className='my-8'>
                         <div className='flex gap-4'>
                             <button className="btn bg-[#3B3486] rounded-[3px] px-8">View Projects</button>

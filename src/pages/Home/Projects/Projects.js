@@ -5,7 +5,7 @@ import musclemaster from '../../../assets/projects/MuscleMaster.png';
 import preciouscameras from '../../../assets/projects/PreciousCameras.png';
 const Projects = () => {
     return (
-        <div className='max-w-[1440px] w-[97%] mx-auto '>
+        <div id='projects' className='max-w-[1440px] w-[97%] mx-auto my-10'>
             <h2 className='text-center font-bold text-3xl  mb-16'>Projects</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 <div className='card bg-base-100 shadow-xl rounded-sm flex flex-col gap-4'>

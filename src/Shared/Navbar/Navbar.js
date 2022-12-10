@@ -2,10 +2,10 @@ import React from 'react';
 
 const Navbar = () => {
     const liList = <>
-        <li><a>Home</a></li>
-        <li><a>About me</a></li>
-        <li><a>Projects</a></li>
-        <li className='flex items-center'><a className= 'btn bg-[#3B3486] px-8 text-white rounded-sm'>Contact</a></li>
+        <li><a href='home'>Home</a></li>
+        <li><a href='#aboutme'>About me</a></li>
+        <li ><a href='#projects'>Projects</a></li>
+        <li className='flex items-center'><a href='#contact' className='btn bg-[#3B3486] px-8 text-white rounded-sm'>Contact</a></li>
     </>
     return (
         <div>
