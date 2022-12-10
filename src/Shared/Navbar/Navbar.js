@@ -14,14 +14,14 @@ const Navbar = () => {
                     <div className="navbar-start flex-auto">
                         <a className=" font-bold ml-0 pl-0  normal-case text-lg md:text-2xl"><span className='text-[#CB1C8D]'>Muhammad</span> <span className='ml-1 text-[#3B3486]'>Mehadi</span></a>
                     </div>
-                    <div className="navbar-end hidden lg:flex">
+                    
+                    <div className='navbar-end flex-1 w-fit'>
+                    <div className=" hidden lg:flex">
                         <ul className="menu menu-horizontal px-1 text-lg font-semibold">
                             {liList}
                         </ul>
                     </div>
-                    <div className='navbar-end flex-1 w-fit'>
-                        <div className="dropdown ">
-
+                        <div className="dropdown flex justify-end ">
                             <ul tabIndex={0} className="menu menu-compact dropdown-content mt-14 p-2 bg-base-100 shadow-lg w-52 text-lg font-semibold ml-[-200px] rounded-sm">
                                 {liList}
                             </ul>
