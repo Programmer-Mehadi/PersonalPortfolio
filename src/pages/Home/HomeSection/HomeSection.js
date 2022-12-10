@@ -35,8 +35,8 @@ const HomeSection = () => {
                     </div>
                 </div>
                 <div className='sm:order-first md:order-last flex justify-center lg:justify-end'>
-                    <div className=' rounded-[100%] h-[300px] w-[300px]  lg:h-[400px] lg:w-[400px] border-4 border-[#3B3486]'>
-                        <img className=' rounded-[100%] h-[300px] w-[300px]  lg:h-[400px] lg:w-[400px] border-0 border-[#3B3486] mt-[10px]' src={mehadi} alt="" />
+                    <div className='shadow-lg rounded-[100%] h-[300px] w-[300px]  lg:h-[400px] lg:w-[400px] border-4 border-[#3B3486]'>
+                        <img className='shadow-lg rounded-[100%] h-[300px] w-[300px]  lg:h-[400px] lg:w-[400px] border-0 border-[#3B3486] mt-[10px]' src={mehadi} alt="" />
                     </div>
                 </div>
 

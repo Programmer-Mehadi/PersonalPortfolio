@@ -8,8 +8,8 @@ const Navbar = () => {
         <p className='flex items-center'><a href='#contact' className='btn w-full  bg-[#3B3486] px-8 text-white rounded-sm'>Contact</a></p>
     </>
     return (
-        <div>
-            <div className="navbar bg-base-100 shadow-sm">
+        <div className='relative z-50 mb-[50px]'>
+            <div className="navbar bg-base-100 bg-opacity-90 shadow-sm fixed top-0 ">
                 <div className=' max-w-[1440px] w-[98%] mx-auto '>
                     <div className="navbar-start flex-auto">
                         <a className=" font-bold ml-0 pl-0  normal-case text-lg md:text-2xl"><span className='text-[#CB1C8D]'>Muhammad</span> <span className='ml-1 text-[#3B3486]'>Mehadi</span></a>
