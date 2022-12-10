@@ -22,14 +22,14 @@ const AboutMe = () => {
                         web functionalities that improve data retrieval and workflow efficiencies.</p>
                 </div>
                 <div className='grid grid-cols-3 gap-4'>
-                    <img className='h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={css} alt="" />
-                    <img className='h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={html} alt="" />
-                    <img className='h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={js} alt="" />
-                    <img className='h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={react} alt="" />
-                    <img className='h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={nodejs} alt="" />
-                    <img className='h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={mongodb} alt="" />
-                    <img className='h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={firebase} alt="" />
-                    <img className='h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={git} alt="" />
+                    <img className='shadow-lg h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={css} alt="" />
+                    <img className='shadow-lg h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={html} alt="" />
+                    <img className='shadow-lg h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={js} alt="" />
+                    <img className='shadow-lg h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={react} alt="" />
+                    <img className='shadow-lg h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={nodejs} alt="" />
+                    <img className='shadow-lg h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={mongodb} alt="" />
+                    <img className='shadow-lg h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={firebase} alt="" />
+                    <img className='shadow-lg h-[130px] w-[130px] bg-slate-100 p-4 rounded-sm' src={git} alt="" />
                 </div>
             </div>
 
