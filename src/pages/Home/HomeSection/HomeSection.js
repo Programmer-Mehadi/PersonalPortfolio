@@ -14,7 +14,7 @@ const HomeSection = () => {
                     <p className='text-lg'>As a passionate Web Developer and Javascript Expert. I have experience in HTML, CSS, and JavaScript,React,Expressjs and Mongodb. Combined with my recent projects in full stack web development, I am confident I have the skills to help you.</p>
                     <div className='my-8'>
                         <div className='flex gap-4 flex-wrap'>
-                            <button className="btn bg-[#3B3486] rounded-[3px] px-8">View Projects</button>
+                            <a href='#projects' className="btn bg-[#3B3486] rounded-[3px] px-8">View Projects</a>
                             <a href="Md Zahirul Islam Mehadi's Resume.pdf" className="btn bg-[#CB1C8D]  text-white border-[#3B3486]  rounded-[3px] hover:text-white px-8">Download RESUME</a>
                         </div>
                     </div>
@@ -22,15 +22,15 @@ const HomeSection = () => {
                         <div className='grid grid-cols-1 gap-6'>
                             <h2 className='font-bold'>Find With Me</h2>
                             <div className='social-list flex gap-4'>
-                                <div className='bg-[#f0eff4] p-2 rounded-[3px]'>
-                                    <img src={linkedin} alt="" />
-                                </div>
-                                <div className='bg-[#f0eff4] p-2 rounded-[3px]'>
+                                <a href={`https://www.linkedin.com/in/muhammad-mehadi/`} className='bg-[#f0eff4] p-2 rounded-[3px]'>
+                                    <img  src={linkedin} alt="" />
+                                </a>
+                                <a href={`https://www.facebook.com/md.mehadi.talukder/`} className='bg-[#f0eff4] p-2 rounded-[3px]'>
                                     <img src={facebook} alt="" />
-                                </div>
-                                <div className='bg-[#f0eff4] p-2 rounded-[3px]'>
+                                </a>
+                                <a href={`https://twitter.com/MuhammadMehadi`} className='bg-[#f0eff4] p-2 rounded-[3px]'>
                                     <img src={twitter} alt="" />
-                                </div>
+                                </a>
                             </div>
                         </div>
                         {/* <div className='grid grid-cols-1 gap-6'>
