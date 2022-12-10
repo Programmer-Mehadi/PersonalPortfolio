@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="navbar bg-base-100 shadow-sm">
                 <div className=' max-w-[1440px] w-[98%] mx-auto '>
                     <div className="navbar-start flex-auto">
-                        <a className=" font-bold ml-0 pl-0  normal-case text-lg md:text-2xl">Muhammad <span className='ml-1 text-[#3B3486]'>Mehadi</span></a>
+                        <a className=" font-bold ml-0 pl-0  normal-case text-lg md:text-2xl"><span className='text-[#CB1C8D]'>Muhammad</span> <span className='ml-1 text-[#3B3486]'>Mehadi</span></a>
                     </div>
                     <div className="navbar-end hidden lg:flex">
                         <ul className="menu menu-horizontal px-1 text-lg font-semibold">
