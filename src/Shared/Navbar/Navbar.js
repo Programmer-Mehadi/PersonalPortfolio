@@ -5,7 +5,7 @@ const Navbar = () => {
         <li><a>Home</a></li>
         <li><a>About me</a></li>
         <li><a>Projects</a></li>
-        <li className='flex items-center  rounded-[3px]'><button className='btn bg-[#3B3486] px-8 text-white rounded-[3px]'>Contact</button></li>
+        <li className='flex items-center'><a className= 'btn bg-[#3B3486] px-8 text-white rounded-sm'>Contact</a></li>
     </>
     return (
         <div>

@@ -15,7 +15,7 @@ const HomeSection = () => {
                     <div className='my-8'>
                         <div className='flex gap-4'>
                             <button className="btn bg-[#3B3486] rounded-[3px] px-8">View Projects</button>
-                            <button className="btn bg-white  text-[#3B3486] border-[#3B3486]  rounded-[3px] hover:text-white px-8">Download CV</button>
+                            <button className="btn bg-[#CB1C8D]  text-white border-[#3B3486]  rounded-[3px] hover:text-white px-8">Download CV</button>
                         </div>
                     </div>
                     <div className='grid grid-cols-2 gap-4'>
