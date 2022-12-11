@@ -7,7 +7,10 @@
     "technologyUsed": "HTML, CSS, JavaScript, React, Tailwind, Express, Firebase, MongoDB, JWT.",
     "clientLink": "https://github.com/Programmer-Mehadi/PreciousCameras-client-side-code",
     "serverLink": "https://github.com/Programmer-Mehadi/PreciousCameras-server-side-code",
-    "liveLink": "https://preciouscameras.web.app"
+    "liveLink": "https://preciouscameras.web.app",
+    "img2": "https://i.ibb.co/z6cCKvS/Preciouscaeras-2.png",
+    "img1": "https://i.ibb.co/cXSPTRq/precious-Cameras-1.png",
+    "img3": "https://i.ibb.co/kDhGbRc/Precious-Cameras-3.png"
   },
   {
     "id": "u4ge45rty67u8if",
@@ -17,7 +20,10 @@
     "technologyUsed": "HTML, CSS, JavaScript, React, Bootstrap, Express, Firebase, MongoDB, JWT.",
     "clientLink": "https://github.com/Programmer-Mehadi/MuscleMaster-client-code",
     "serverLink": "https://github.com/Programmer-Mehadi/MuscleMaster-server-code",
-    "liveLink": "https://muscle-master-14426.web.app"
+    "liveLink": "https://muscle-master-14426.web.app",
+    "img2": "https://i.ibb.co/4tDW4FZ/usclemaster-2.png",
+    "img1": "https://i.ibb.co/LJ8VDc0/musclemaster-1.png",
+    "img3": "https://i.ibb.co/1ZDqNGF/musclemaster-3.png"
   },
   {
     "id": "e5he45rty67u8if",
@@ -27,6 +33,9 @@
     "technologyUsed": "HTML, CSS, JavaScript, React, Express, Firebase, JSON.",
     "clientLink": "https://github.com/Programmer-Mehadi/Educourx-client-side-code",
     "serverLink": "https://github.com/Programmer-Mehadi/Educourx-server-side-code",
-    "liveLink": "https://educourx-auth.web.app"
+    "liveLink": "https://educourx-auth.web.app",
+    "img2": "https://i.ibb.co/pZStrQk/educourx-2.png",
+    "img1": "https://i.ibb.co/t40g51K/educourx-1.png",
+    "img3": "https://i.ibb.co/b2CWZ1J/educourx-3.png"
   }
 ]

@@ -1,7 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { projectContext } from '../../../contexts/ProjectProvider';
 
 const Projects = () => {
+    const { setProjectId } = useContext(projectContext);
 
     const [prohectList, setProjectList] = useState(null);
 
@@ -27,7 +29,7 @@ const Projects = () => {
                                 </p> */}
 
                                 <div className='grid grid-cols-2 gap-4'>
-                                    <Link to={`/projects/${project.id}`} className='btn bg-[#3B3486]'>View Details</Link>
+                                    <Link to={`/projects/${project.id}`} onClick={() => setProjectId(project.id)} className='btn bg-[#3B3486] rounded-sm'>View Details</Link>
 
                                 </div>
                             </div>
