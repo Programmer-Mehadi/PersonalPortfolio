@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const liList = <>
-        <li><a href='home'>Home</a></li>
-        <li><a href='#aboutme'>About me</a></li>
-        <li ><a href='#projects'>Projects</a></li>
+        <li><a href='/#home'>Home</a></li>
+        <li><a href='/#aboutme'>About me</a></li>
+        <li ><a href='/#projects'>Projects</a></li>
+        <li ><Link to='/blog'>Blog</Link></li>
         <p className='flex items-center'><a href='#contact' className='btn w-full  bg-[#3B3486] px-8 text-white rounded-sm'>Contact</a></p>
     </>
     return (

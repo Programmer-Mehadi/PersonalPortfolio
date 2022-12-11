@@ -1,0 +1,32 @@
+[
+  {
+    "id": "q2we45rty67u8if",
+    "name": "PreciousCameras",
+    "img": "https://i.ibb.co/Mf7Vy1w/Precious-Cameras.png",
+    "overview": "Resale product website. User can login by Email, password and Google signing (Buyer and Seller). Buyer can buy any products that's are unsold. Buyer also have dashboard and can see all order (own). Seller can sell Products. Seller also has Dashboard (Add product and see all products). Admin can delete any product. Admin can delete any user. Admin can remove reported items (Product).",
+    "technologyUsed": "HTML, CSS, JavaScript, React, Tailwind, Express, Firebase, MongoDB, JWT.",
+    "ClientLink": "https://github.com/Programmer-Mehadi/PreciousCameras-client-side-code",
+    "ServerLink": "https://github.com/Programmer-Mehadi/PreciousCameras-server-side-code",
+    "liveLink": "https://preciouscameras.web.app"
+  },
+  {
+    "id": "u4ge45rty67u8if",
+    "name": "MuscleMaster",
+    "img": "https://i.ibb.co/y4g4RTH/Muscle-Master.png",
+    "overview": "Massage center website. Login, signup (Google, email and password), view services, add new services, view single service, add review, edit and update review.",
+    "technologyUsed": "HTML, CSS, JavaScript, React, Bootstrap, Express, Firebase, MongoDB, JWT.",
+    "ClientLink": "https://github.com/Programmer-Mehadi/MuscleMaster-client-code",
+    "ServerLink": "https://github.com/Programmer-Mehadi/MuscleMaster-server-code",
+    "liveLink": "https://muscle-master-14426.web.app"
+  },
+  {
+    "id": "e5he45rty67u8if",
+    "name": "Educourx",
+    "img": "https://i.ibb.co/k2TcYNY/educourx.png",
+    "overview": "Online course related website. User can view course, and also see course by category. Here also implement authentication in login, signup by firebase (email-password, Gmail and GitHub authentication). User can checkout any course (private route).",
+    "technologyUsed": "HTML, CSS, JavaScript, React, Express, Firebase, JSON.",
+    "ClientLink": "https://github.com/Programmer-Mehadi/Educourx-client-side-code",
+    "ServerLink": "https://github.com/Programmer-Mehadi/Educourx-server-side-code",
+    "liveLink": "https://educourx-auth.web.app"
+  }
+]
