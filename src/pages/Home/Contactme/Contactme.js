@@ -24,25 +24,25 @@ const Contactme = () => {
             <h2 className='text-center font-bold text-3xl  mb-16 pt-20'>Contact</h2>
             <div className="mb-20">
                 <div className=" flex-col lg:flex-row-reverse">                     
-                    <div className="max-w-[600px] mx-auto rounded-sm  card flex-shrink-0  shadow-2xl bg-base-100">
-                        <form ref={form} onSubmit={sendEmail} className="card-body text-white bg-gradient-to-r from-[#3B3486] via-purple-600 to-[#CB1C8D] rounded-sm">
+                    <div className="max-w-[600px] mx-auto rounded-sm  card flex-shrink-0  shadow-2xl">
+                        <form ref={form} onSubmit={sendEmail} className="card-body text-white bg-gradient-to-r from-[#3B3486]  to-[#CB1C8D] rounded-sm drop-shadow-md">
                             <div className="form-control">
                                 <label className="label text-white">
                                     <span className="">Full Name</span>
                                 </label>
-                                <input required  name='from_name' type="text" placeholder="full name" className="input input-bordered text-white bg-gradient-to-r from-[#3B3486] via-purple-600 to-[#CB1C8D] border-white" />
+                                <input required  name='from_name' type="text" placeholder="full name" className="input input-bordered text-white bg-gradient-to-r from-[#3B3486]  to-[#CB1C8D] border-white" />
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="">Email</span>
                                 </label>
-                                <input required name='from_email' type="email" placeholder="email" className="input input-bordered text-white bg-gradient-to-r from-[#3B3486] via-purple-600 to-[#CB1C8D] border-white" />
+                                <input required name='from_email' type="email" placeholder="email" className="input input-bordered text-white bg-gradient-to-r from-[#3B3486]  to-[#CB1C8D] border-white" />
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="">Message</span>
                                 </label>
-                                <textarea required  name='message' type="text" placeholder="message" className="pt-1 input input-bordered text-white bg-gradient-to-r from-[#3B3486] via-purple-500 to-[#CB1C8D] border-white" />
+                                <textarea required  name='message' type="text" placeholder="message" className="pt-1 input input-bordered text-white bg-gradient-to-r from-[#3B3486] to-[#CB1C8D] border-white" />
                             </div>
                              
                             <div className="form-control mt-6">

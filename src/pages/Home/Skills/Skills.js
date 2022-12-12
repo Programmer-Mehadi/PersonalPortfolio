@@ -16,14 +16,14 @@ const Skills = () => {
                 <h2 className='text-center font-bold text-3xl  pb-20'>Skills</h2>
 
                 <div className='grid grid-cols-3 md:grid-cols-5 gap-4'>
-                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm' src={css} alt="" />
-                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm' src={html} alt="" />
-                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm' src={js} alt="" />
-                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm' src={react} alt="" />
-                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm' src={nodejs} alt="" />
-                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm' src={mongodb} alt="" />
-                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm' src={firebase} alt="" />
-                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm' src={git} alt="" />
+                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ' src={css} alt="" />
+                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' src={html} alt="" />
+                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' src={js} alt="" />
+                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' src={react} alt="" />
+                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' src={nodejs} alt="" />
+                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' src={mongodb} alt="" />
+                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' src={firebase} alt="" />
+                    <img className='shadow-lg h-[100px]  md:h-[130px]  w-[130px] bg-slate-100 p-4 rounded-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300' src={git} alt="" />
                 </div>
             </div>
         </div>

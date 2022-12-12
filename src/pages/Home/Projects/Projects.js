@@ -22,7 +22,7 @@ const Projects = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                     {
                         prohectList?.map(project =>
-                            <div key={project.id} className=' bg-gradient-to-r from-[#3B3486] via-purple-500 to-[#CB1C8D] card text-white shadow-xl rounded-sm flex flex-col gap-4'>
+                            <div key={project.id} className=' bg-gradient-to-r from-[#3B3486] to-[#CB1C8D] card text-white shadow-xl rounded-sm flex flex-col gap-4'>
                                 <img src={project.img} className='border-b-2 border-black h-[200px]' alt="" />
                                 <div className='card-body flex flex-col gap-4 '>
                                     <h2 className='text-xl font-bold'>{project.name}</h2>
