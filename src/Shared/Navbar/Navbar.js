@@ -7,11 +7,11 @@ const Navbar = () => {
         <li><a href='/#aboutme'>About me</a></li>
         <li ><a href='/#projects'>Projects</a></li>
         <li ><Link to='/blog'>Blog</Link></li>
-        <p className='flex items-center'><a href='/#contact' className='btn w-full  bg-[#3B3486] px-8 text-white rounded-sm'>Contact</a></p>
+        <p className='flex items-center'><a href='/#contact' className='btn w-full  bg-[#3B3486] px-8 text-white rounded-sm border-white'>Contact</a></p>
     </>
     return (
         <div className='relative z-50 mb-[50px]'>
-            <div className="navbar bg-gradient-to-r from-[#3B3486] via-purple-500 to-[#CB1C8D] bg-opacity-90 shadow-sm fixed top-0 text-white ">
+            <div className="navbar bg-gradient-to-r from-[#3B3486] via-purple-500 to-[#CB1C8D] bg-opacity-90 shadow-md fixed top-0 text-white ">
                 <div className=' max-w-[1440px] w-[90%] mx-auto '>
                     <div className="navbar-start flex-auto">
                         {/* <a className=" font-bold ml-0 pl-0  normal-case text-lg md:text-2xl"><span className='text-[#CB1C8D]'>Muhammad</span> <span className='ml-1 text-[#3B3486]'>Mehadi</span></a> */}
@@ -25,7 +25,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                         <div className="dropdown flex justify-end ">
-                            <ul tabIndex={0} className="menu menu-compact dropdown-content mt-14 p-2 bg-base-100 shadow-lg w-52 text-lg font-semibold ml-[-200px] rounded-sm">
+                            <ul tabIndex={0} className="menu menu-compact dropdown-content mt-14 p-2 bg-gradient-to-r from-[#3B3486] via-purple-500 to-[#CB1C8D] shadow-md w-52 text-lg font-semibold ml-[-200px] rounded-sm">
                                 {liList}
                             </ul>
                             <label tabIndex={0} className="w-fit   btn btn-ghost lg:hidden">

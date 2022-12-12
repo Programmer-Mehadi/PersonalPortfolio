@@ -16,29 +16,31 @@ const Projects = () => {
     }, [])
 
     return (
-        <div id='projects' className='max-w-[1440px] w-[97%] mx-auto my-10'>
-            <h2 className='text-center font-bold text-3xl  mb-16'>Projects</h2>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-                {
-                    prohectList?.map(project =>
-                        <div key={project.id} className='card bg-base-100 shadow-xl rounded-sm flex flex-col gap-4'>
-                            <img src={project.img} className='border-b-2 border-black h-[200px]' alt="" />
-                            <div className='card-body flex flex-col gap-4'>
-                                <h2 className='text-xl font-bold'>{project.name}</h2>
-                                {/* <p>{project.overview}
+        <div className='text-white bg-gradient-to-r from-[#3B3486] via-purple-500 to-[#CB1C8D]'>
+            <div id='projects' className='max-w-[1440px] w-[90%] mx-auto  py-10 pt-20'>
+                <h2 className='text-center font-bold text-3xl  mb-16'>Projects</h2>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+                    {
+                        prohectList?.map(project =>
+                            <div key={project.id} className=' bg-gradient-to-r from-[#3B3486] via-purple-500 to-[#CB1C8D] card text-white shadow-xl rounded-sm flex flex-col gap-4'>
+                                <img src={project.img} className='border-b-2 border-black h-[200px]' alt="" />
+                                <div className='card-body flex flex-col gap-4 '>
+                                    <h2 className='text-xl font-bold'>{project.name}</h2>
+                                    {/* <p>{project.overview}
                                 </p> */}
 
-                                <div className='grid grid-cols-2 gap-4'>
-                                    <Link to={`/projects/${project.id}`} onClick={() => setProjectId(project.id)} className='btn bg-[#3B3486] rounded-sm'>View Details</Link>
+                                    <div className='grid grid-cols-2 gap-4 border-white'>
+                                        <a href={project.liveLink}  className='btn bg-[#3B3486] rounded-sm border-white'>Live Site</a>
+                                        <Link to={`/projects/${project.id}`} onClick={() => setProjectId(project.id)} className='btn bg-[#3B3486] rounded-sm border-white'>View Details</Link>
 
+                                    </div>
                                 </div>
+
                             </div>
+                        )
+                    }
 
-                        </div>
-                    )
-                }
-
-                {/* <div className='card bg-base-100 shadow-xl rounded-sm flex flex-col gap-4'>
+                    {/* <div className='card bg-base-100 shadow-xl rounded-sm flex flex-col gap-4'>
                     <img src={educourx} className='border-b-2 border-black h-[200px]' alt="" />
                     <div className='card-body flex flex-col gap-4'>
                         <h2 className='text-xl font-bold'>Educourx</h2>
@@ -72,7 +74,7 @@ const Projects = () => {
                     </div>
 
                 </div> */}
-
+                </div>
             </div>
         </div>
     );

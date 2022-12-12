@@ -7,7 +7,7 @@ import mehadi from '../../../assets/mehadi.png';
 
 const HomeSection = () => {
     return (
-        <div id='home' className='text-white bg-gradient-to-r from-[#3B3486] via-purple-500 to-[#CB1C8D] min-h-[600px] flex justify-center items-center py-14 lg:py-0' >
+        <div id='home' className='text-white bg-gradient-to-r from-[#3B3486] via-purple-500 to-[#CB1C8D] min-h-[600px] flex justify-center items-center py-20 lg:py-0' >
             <div className='flex flex-col  md:flex-row  gap-20  max-w-[1440px] w-[90%] mx-auto  '>
                 <div className='order-2 '>
                     <h4 className='text-center md:text-left text-lg font-semibold'>Hi I'm Muhammad Mehadi</h4>
@@ -25,7 +25,7 @@ const HomeSection = () => {
                         </div>
                     </div>
                     <div className='flex flex-col gap-6 items-center md:items-start'>
-                        <h2 className='font-bold'>Find With Me</h2>
+                        <h2 className='font-bold'>Connect With Me</h2>
                         <div className='social-list flex gap-4'>
                             <a href={`https://www.linkedin.com/in/muhammad-mehadi/`} className='bg-[#f0eff4] p-2 rounded-[3px] h-10 w-10'>
                                 <img src={linkedin} alt="" className='' />
