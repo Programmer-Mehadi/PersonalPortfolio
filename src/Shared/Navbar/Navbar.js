@@ -11,10 +11,11 @@ const Navbar = () => {
     </>
     return (
         <div className='relative z-50 mb-[50px]'>
-            <div className="navbar bg-base-100 bg-opacity-90 shadow-sm fixed top-0 ">
-                <div className=' max-w-[1440px] w-[98%] mx-auto '>
+            <div className="navbar bg-gradient-to-r from-[#3B3486] via-purple-500 to-[#CB1C8D] bg-opacity-90 shadow-sm fixed top-0 text-white ">
+                <div className=' max-w-[1440px] w-[90%] mx-auto '>
                     <div className="navbar-start flex-auto">
-                        <a className=" font-bold ml-0 pl-0  normal-case text-lg md:text-2xl"><span className='text-[#CB1C8D]'>Muhammad</span> <span className='ml-1 text-[#3B3486]'>Mehadi</span></a>
+                        {/* <a className=" font-bold ml-0 pl-0  normal-case text-lg md:text-2xl"><span className='text-[#CB1C8D]'>Muhammad</span> <span className='ml-1 text-[#3B3486]'>Mehadi</span></a> */}
+                        <a className=" font-bold ml-0 pl-0  normal-case text-lg md:text-2xl"><span className=''>Muhammad</span><span className=''>Mehadi</span></a>
                     </div>
 
                     <div className='navbar-end flex-1 w-fit'>

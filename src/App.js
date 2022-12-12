@@ -6,7 +6,7 @@ import router from './router/routes';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font-mono">
       <Toaster />
       <RouterProvider router={router}></RouterProvider>
     </div>
