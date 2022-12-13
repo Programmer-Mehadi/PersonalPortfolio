@@ -16,7 +16,7 @@ const Projects = () => {
     }, [])
 
     return (
-        <div className='text-white bg-gradient-to-r from-[#3B3486] via-purple-500 to-[#CB1C8D]'>
+        <div className='text-white bg-gradient-to-r from-[#3B3486] via-purple-700 to-[#CB1C8D]'>
             <div id='projects' className='max-w-[1440px] w-[90%] mx-auto  py-10 pt-20'>
                 <h2 className='text-center font-bold text-3xl  mb-16'>Projects</h2>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>

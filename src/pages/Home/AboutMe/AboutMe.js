@@ -3,7 +3,7 @@ import React from 'react';
 const AboutMe = () => {
 
     return (
-        <div className='text-white bg-gradient-to-r from-[#3B3486] via-purple-500 to-[#CB1C8D]'>
+        <div className='text-white bg-gradient-to-r from-[#3B3486] via-purple-700 to-[#CB1C8D]'>
             <div className='max-w-[1440px] w-[90%] mx-auto py-20 ' id='aboutme'>
                 <h2 className='text-center font-bold text-3xl  mb-16'>About Me</h2>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-12 items-center justify-center'>

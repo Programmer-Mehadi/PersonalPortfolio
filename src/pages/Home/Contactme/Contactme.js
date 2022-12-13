@@ -19,7 +19,7 @@ const Contactme = () => {
     };
     
     return (
-        <div className='text-white bg-gradient-to-r from-[#3B3486] via-purple-500 to-[#CB1C8D]'>
+        <div className='text-white bg-gradient-to-r from-[#3B3486] via-purple-700 to-[#CB1C8D]'>
         <div id='contact' className='max-w-[1440px] w-[90%] mx-auto py-10'>
             <h2 className='text-center font-bold text-3xl  mb-16 pt-20'>Contact</h2>
             <div className="mb-20">

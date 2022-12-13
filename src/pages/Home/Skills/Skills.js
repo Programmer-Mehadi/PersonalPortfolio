@@ -11,7 +11,7 @@ import react from '../../../assets/icons/react.svg';
 
 const Skills = () => {
     return (
-        <div className='text-white bg-gradient-to-r from-[#3B3486] via-purple-500 to-[#CB1C8D]'>
+        <div className='text-white bg-gradient-to-r from-[#3B3486] via-purple-700 to-[#CB1C8D]'>
             <div className='max-w-[1440px] w-[90%] mx-auto py-20' id='aboutme'>
                 <h2 className='text-center font-bold text-3xl  pb-20'>Skills</h2>
 
