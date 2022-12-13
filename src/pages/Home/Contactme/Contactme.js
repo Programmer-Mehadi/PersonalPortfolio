@@ -1,6 +1,7 @@
 import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
 import toast from 'react-hot-toast';
+import img from '../../../assets/Developer_activity.gif';
 const Contactme = () => {
     const form = useRef();
     const sendEmail = (e) => {
@@ -23,9 +24,12 @@ const Contactme = () => {
             <div id='contact' className='max-w-[1440px] w-[90%] mx-auto py-10'>
                 <h2 className='text-center font-bold text-3xl  mb-16 pt-20'>Contact</h2>
                 <div className="mb-20">
-                    <div className=" flex-col lg:flex-row-reverse">
-                        <div className="max-w-[600px] mx-auto rounded-sm  card flex-shrink-0  shadow-2xl">
-                            <form ref={form} onSubmit={sendEmail} className="card-body text-white bg-gradient-to-r from-[#3B3486]  to-[#CB1C8D] rounded-sm drop-shadow-md">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-0 drop-shadow-md">
+                        <div className='w-full mb-10 drop-shadow-md md:drop-shadow-none md:mb-0'>
+                            <img src={img} alt="" className='w-full h-full rounded-l-sm' />
+                        </div>
+                        <div className=" ml-0 rounded-sm  card  shadow-2xl w-full ">
+                            <form ref={form} onSubmit={sendEmail} className="card-body text-white bg-gradient-to-r from-[#3B3486]  to-[#CB1C8D] rounded-sm  flex justify-center">
                                 <div className="form-control">
                                     <label className="label text-white">
                                         <span className="">Full Name</span>
