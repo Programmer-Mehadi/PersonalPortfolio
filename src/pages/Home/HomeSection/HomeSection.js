@@ -17,12 +17,12 @@ const HomeSection = () => {
         console.log(`Done after 5 loops!`)
     }
     return (
-        <div id='home' className='text-white bg-gradient-to-r from-[#3B3486] via-purple-700 to-[#CB1C8D] min-h-[600px] flex justify-center items-center py-20 lg:py-0 relative' >
+        <div id='home' className='text-white bg-gradient-to-r from-[#3B3486] via-purple-700 to-[#CB1C8D] min-h-[600px] flex justify-center items-center py-20 lg:py-0' >
 
-            <div className=' bg-purple-800  absolute h-full  w-full z-10 blur-3xl opacity-50'>
-            </div>
+            {/* <div className=' bg-purple-800  absolute h-full  w-full z-10 blur-3xl opacity-50'>
+            </div> */}
 
-            <div className='absolute flex flex-col  md:flex-row  gap-20  max-w-[1440px] w-[90%] mx-auto z-30'>
+            <div className=' flex flex-col  md:flex-row  gap-20  max-w-[1440px] w-[90%] mx-auto z-30'>
                 <div className='order-2 '>
                     <h4 className='text-center md:text-left text-xl font-semibold'>Hi I'm Md Zahirul Islam Mehadi</h4>
 
@@ -81,7 +81,7 @@ const HomeSection = () => {
                 </div>
 
             </div>
-        </div >
+        </div>
 
     );
 };
