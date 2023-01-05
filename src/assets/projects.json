@@ -1,5 +1,18 @@
 [
   {
+    "id": "52wt85rtu67u8if",
+    "name": "News71",
+    "img": "https://i.ibb.co/KFKL8Cc/news71-home.png",
+    "overview": "Two types of users(normal users and admin). Only the admin can add, edit, and delete news. Also have like, dislike, and comment functionality and a dashboard for both users. Used TailwindCSS, React-Flowbite, NextJS, ExpressJS, MongoDB, and Firebase.",
+    "technologyUsed": "HTML, CSS, JavaScript, NextJS, Tailwind, Express, Firebase, MongoDB, JWT.",
+    "clientLink": "https://github.com/SaifullaJubair/News-71",
+    "serverLink": "https://github.com/SaifullaJubair/news-71-server",
+    "liveLink": "https://news-71-f8a9f.web.app/",
+    "img2": "https://i.ibb.co/M510T2w/Search-page.png",
+    "img1": "https://i.ibb.co/QM7Jccs/news71-dashboard.png",
+    "img3": "https://i.ibb.co/6nDFLfR/News-page-details.png"
+  },
+  {
     "id": "q2we45rty67u8if",
     "name": "PreciousCameras",
     "img": "https://i.ibb.co/Mf7Vy1w/Precious-Cameras.png",

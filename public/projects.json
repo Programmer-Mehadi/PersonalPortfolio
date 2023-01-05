@@ -1,5 +1,15 @@
 [
   {
+    "id": "52wt85rtu67u8if",
+    "name": "News71",
+    "img": "https://i.ibb.co/KFKL8Cc/news71-home.png",
+    "overview": "Resale product website. User can login by Email, password and Google signing (Buyer and Seller). Buyer can buy any products that's are unsold. Buyer also have dashboard and can see all order (own). Seller can sell Products. Seller also has Dashboard (Add product and see all products). Admin can delete any product. Admin can delete any user. Admin can remove reported items (Product).",
+    "technologyUsed": "HTML, CSS, JavaScript, React, Tailwind, Express, Firebase, MongoDB, JWT.",
+    "clientLink": "https://github.com/SaifullaJubair/News-71",
+    "serverLink": "https://github.com/SaifullaJubair/news-71-server",
+    "liveLink": "https://news-71-f8a9f.web.app/"
+  },
+  {
     "id": "q2we45rty67u8if",
     "name": "PreciousCameras",
     "img": "https://i.ibb.co/Mf7Vy1w/Precious-Cameras.png",
